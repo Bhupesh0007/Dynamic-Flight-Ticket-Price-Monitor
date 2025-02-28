@@ -7,8 +7,8 @@ SHEETY_PRICES_ENDPOINT = "https://api.sheety.co/4e1252bfdc3d54a40d55648baab1d285
 class DataManager:
 
     def __init__(self):
-        self._user = "bhupesh7"
-        self._password = "bhupesh@1509"
+        self._user = "your username"
+        self._password = "your pass"
         self._authorization = HTTPBasicAuth(self._user, self._password)
         self.destination_data = {}
 
